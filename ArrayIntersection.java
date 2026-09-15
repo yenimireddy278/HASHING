@@ -28,9 +28,9 @@ public class ArrayIntersection {
         int[] a = {1, 2, 2, 3, 4};
         int[] b = {2, 2, 4, 5};
         
-        List<Integer> result = intersection(a, b);
-        System.out.println("Intersection: " + result);
-        // Output: Intersection: [2, 2, 4]
+    
+        System.out.println(intersection(a,b));
+        
     }
 }
 	
